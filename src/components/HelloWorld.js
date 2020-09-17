@@ -17,7 +17,7 @@ class HelloWorld extends React.Component {
     this.setState({
       sort: value
       })
-    
+  
     let sortedHogs = [...this.state.hogs]
     
     if(value === "alphabetically"){ 
